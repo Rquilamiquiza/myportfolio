@@ -1,4 +1,4 @@
-# myPortfolio — Romão Quilamiquiza
+# Portfolio — Romão Quilamiquiza
 
 Versão React do portfolio, construída com **Vite + React 18 + Tailwind CSS**.
 
@@ -10,7 +10,7 @@ Versão React do portfolio, construída com **Vite + React 18 + Tailwind CSS**.
 ## Setup
 
 ```bash
-cd portfolio-react
+cd myportfolio
 npm install
 npm run dev
 ```
