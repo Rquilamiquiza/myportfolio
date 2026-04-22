@@ -50,11 +50,11 @@ export default function Hero() {
               </p>
               <p className="text-gray-500 mb-1">$ cat role.txt</p>
               <p className="text-gray-300 mb-3">
-                Técnico FabLab & Desenvolvedor
+                Engenheiro de Software & Maker
               </p>
               <p className="text-gray-500 mb-1">$ echo $PASSION</p>
               <p className="text-green-400/80">
-                Fabricação Digital | DevOps | Computação Visual
+                Engenharia de Software | DevOps | Fabricação Digital
               </p>
             </div>
           </div>
@@ -67,10 +67,10 @@ export default function Hero() {
           </span>
         </h1>
         <p className="text-xl md:text-2xl text-gray-400 mb-4 font-light">
-          Construo soluções com{' '}
-          <span className="text-green-400 font-mono font-medium">código</span> e{' '}
+          Acredito que construir é uma forma de pensar estrategicamente.{' '}
+          <span className="text-green-400 font-mono font-medium">Código é ferramenta</span> ;{' '}
           <span className="text-green-400 font-mono font-medium">
-            fabricação digital
+            arquitetura é visão.
           </span>
         </p>
         <div className="font-mono text-green-500/70 mb-10 h-8">

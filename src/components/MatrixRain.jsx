@@ -2,7 +2,8 @@ import { useEffect, useRef } from 'react'
 
 const CHARS = '01アイウエオカキクケコサシスセソタチツテト'
 
-export default function MatrixRain() {
+export default function MatrixRain()
+{
   const ref = useRef(null)
 
   useEffect(() => {

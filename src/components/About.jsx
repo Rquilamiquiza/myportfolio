@@ -28,19 +28,20 @@ export default function About() {
                 <h4 className="font-mono text-green-400 text-sm">about.json</h4>
               </div>
               <p className="text-gray-400 leading-relaxed mb-4">
-                Sou técnico de <span className="text-green-400">FabLab</span>,
-                focado em{' '}
-                <span className="text-green-400">fabricação digital</span>,{' '}
-                <span className="text-green-400">programação</span> e{' '}
-                <span className="text-green-400">DevOps</span>. Combino código
-                com prototipagem física para criar soluções inovadoras.
+                Atuo na interseção entre <span className="text-green-400">fabricação digital</span>,{' '}
+                <span className="text-green-400">desenvolvimento de software</span> e{' '}
+                <span className="text-green-400">DevOps</span>, criando soluções que conectam
+                o mundo físico ao digital de forma prática e inovadora. Tenho como foco a
+                construção de sistemas eficientes, escaláveis e orientados a resultados.
               </p>
               <p className="text-gray-400 leading-relaxed">
-                Trabalho com Django e Python no desenvolvimento web, ferramentas
-                de DevOps para automação e deploy, e tenho projetos na área de
-                computação visual.
+                Trabalho principalmente com Django e Python no desenvolvimento web, aliado a
+                práticas modernas de DevOps para automação, integração contínua e deploy.
+                Também exploro áreas como computação visual e redes, sempre com uma abordagem
+                voltada à resolução de problemas reais e à criação de valor através da
+                tecnologia.
               </p>
-            </div>
+              </div>
 
             <div className="grid grid-cols-2 gap-4">
               {INFO_CARDS.map((c) => (

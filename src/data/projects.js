@@ -1,50 +1,76 @@
 export const PROJECTS = [
   {
     icon: 'fa-eye',
-    title: 'Computação Visual',
-    category: 'projeto destacado',
+    title: 'SISDF',
+    category: 'destaque',
     description:
-      'Projetos de processamento de imagem e visão computacional com Python e OpenCV. Deteção, tracking e análise visual.',
-    tags: ['Python', 'OpenCV', 'NumPy'],
+      'Sistema de detecção de fadiga e sono em condutores usando Computação Visual e Machine Learning.',
+    tags: ['Python', 'OpenCV', 'NumPy', 'MediaPipe', 'TensorFlow', 'scikit-learn'],
     links: [
-      { icon: 'fab fa-github', label: 'Código', href: '#' },
-      { icon: 'fas fa-external-link-alt', label: 'Demo', href: '#' }
+      { icon: 'fab fa-github', label: 'Código', href: 'https://github.com/Rquilamiquiza/detector_fadiga' }
     ]
   },
   {
-    icon: 'fab fa-python',
-    title: 'Web App Django',
-    category: 'projeto destacado',
+    icon: 'fa-clipboard-list',
+    title: 'Fab Lab Gest',
+    category: 'destaque',
     description:
-      'Aplicação web full-stack com Django, autenticação, API REST e deploy automatizado com Docker.',
-    tags: ['Django', 'PostgreSQL', 'Docker'],
+      'Aplicação para gestão integrada das atividades internas do Fab Lab Kubanga Angola: controlo de visitas, inventário e estoque, estado e manutenção das máquinas, e relatórios analíticos para apoio à decisão.',
+    tags: ['Django', 'PostgreSQL', 'Tailwind', 'JavaScript'],
     links: [{ icon: 'fab fa-github', label: 'Código', href: '#' }]
   },
   {
-    icon: 'fa-cube',
-    title: 'Projetos FabLab',
+    icon: 'fa-globe',
+    title: 'Website Fab Lab Kubanga',
     category: 'fablab',
     description:
-      'Protótipos e projetos de fabricação digital: impressão 3D, corte laser e CNC. Do design ao produto final.',
-    tags: ['Impressão 3D', 'Corte Laser', 'CNC'],
-    links: [{ icon: 'fas fa-images', label: 'Galeria', href: '#' }]
+      'Website dinâmico do FabLab, integrado ao sistema de gestão interna com sincronização em tempo real, divulgação de atividades e gestão de conteúdos.',
+    tags: ['Django', 'Tailwind', 'JavaScript', 'HTML', 'CSS'],
+    links: [{ icon: 'fas fa-images', label: 'Demo', href: '#' }]
+  },
+  {
+    icon: 'fa-terminal',
+    title: 'Minishell',
+    category: '42 Luanda',
+    description:
+      'Réplica do terminal Bash em C, implementando as principais funcionalidades: parsing, pipes, redirecionamentos, variáveis de ambiente e builtins.',
+    tags: ['C', 'Shell', 'Systems'],
+    links: [{ icon: 'fab fa-github', label: 'Código', href: 'https://github.com/Rquilamiquiza/minishell' }]
+  },
+  {
+    icon: 'fa-server',
+    title: 'Webserver',
+    category: '42 Luanda',
+    description:
+      'Servidor web HTTP/1.1 desenvolvido em C++, com suporte a CGI em Python para execução de scripts dinâmicos.',
+    tags: ['C++', 'HTTP', 'CGI'],
+    links: [{ icon: 'fab fa-github', label: 'Código', href: 'https://github.com/Rquilamiquiza/webserver' }]
+  },
+  {
+    icon: 'fa-gamepad',
+    title: 'Transcendence',
+    category: '42 Luanda',
+    description:
+      'Projeto final do currículo da 42 Luanda: jogo de ping pong multiplayer em tempo real com chat, usando comunicação por sockets. Atuei como DevOps — automação de deploy, organização de repositórios e workflows, CI/CD, monitoramento com Prometheus, divisão do backend em microsserviços e containerização.',
+    tags: ['DevOps', 'Docker', 'CI/CD', 'Prometheus', 'Microsserviços'],
+    links: [{ icon: 'fab fa-github', label: 'Código', href: 'https://github.com/Rquilamiquiza/transcendence' }]
+  },
+  {
+    icon: 'fab fa-docker',
+    title: 'Inception',
+    category: 'devops',
+    description:
+      'Automação de deploy com Docker Compose orquestrando três containers (NGINX, PostgreSQL e PHP) para executar um site em WordPress.',
+    tags: ['Docker', 'Docker Compose', 'NGINX', 'PostgreSQL', 'WordPress'],
+    links: [{ icon: 'fab fa-github', label: 'Código', href: 'https://github.com/Rquilamiquiza/inception' }]
   },
   {
     icon: 'fa-network-wired',
     title: 'Network Simulator',
-    category: 'projeto pessoal',
+    category: 'pessoal',
     description:
-      'Simulador de redes com topologias, routing e configuração de dispositivos para praticar conceitos de redes.',
+      'Simulador de redes que compara o funcionamento de equipamentos Cisco vs Ubiquiti.',
     tags: ['Python', 'Networking', 'Simulação'],
-    links: [{ icon: 'fab fa-github', label: 'Código', href: '#' }]
-  },
-  {
-    icon: 'fa-rocket',
-    title: 'CI/CD Pipeline',
-    category: 'devops',
-    description:
-      'Pipeline de integração e deploy contínuo com Docker, GitHub Actions e automação de testes.',
-    tags: ['Docker', 'GitHub Actions', 'CI/CD'],
-    links: [{ icon: 'fab fa-github', label: 'Código', href: '#' }]
+    links: [{ icon: 'fab fa-github', label: 'Código', href: 'https://github.com/Rquilamiquiza/network_simulator' }]
   }
 ]
