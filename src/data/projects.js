@@ -29,6 +29,24 @@ export const PROJECTS = [
     links: [{ icon: 'fas fa-images', label: 'Demo', href: '#' }]
   },
   {
+    icon: 'fa-ghost',
+    title: 'so_long',
+    category: '42 Luanda',
+    description:
+      'Pequeno jogo 2D top-down em C com MiniLibX, onde o jogador coleta itens pelo mapa e escapa pela saída.',
+    tags: ['C', 'MiniLibX', '2D Game'],
+    links: [{ icon: 'fab fa-github', label: 'Código', href: 'https://github.com/Rquilamiquiza/so_long' }]
+  },
+  {
+    icon: 'fa-utensils',
+    title: 'Philosopher',
+    category: '42 Luanda',
+    description:
+      'Implementação do problema clássico do jantar dos filósofos em C, usando threads e mutexes para sincronização e evitar deadlock e starvation.',
+    tags: ['C', 'Threads', 'Mutex', 'Concorrência'],
+    links: [{ icon: 'fab fa-github', label: 'Código', href: 'https://github.com/Rquilamiquiza/philosopher' }]
+  },
+  {
     icon: 'fa-terminal',
     title: 'Minishell',
     category: '42 Luanda',
@@ -36,6 +54,15 @@ export const PROJECTS = [
       'Réplica do terminal Bash em C, implementando as principais funcionalidades: parsing, pipes, redirecionamentos, variáveis de ambiente e builtins.',
     tags: ['C', 'Shell', 'Systems'],
     links: [{ icon: 'fab fa-github', label: 'Código', href: 'https://github.com/Rquilamiquiza/minishell' }]
+  },
+  {
+    icon: 'fa-cube',
+    title: 'Cub3D',
+    category: '42 Luanda',
+    description:
+      'Jogo 3D com raycasting inspirado em Wolfenstein 3D, desenvolvido em C com MiniLibX — renderização de paredes texturizadas, exploração de mapa e controlo em primeira pessoa.',
+    tags: ['C', 'MiniLibX', 'Raycasting', '3D'],
+    links: [{ icon: 'fab fa-github', label: 'Código', href: 'https://github.com/Rquilamiquiza/Cub3D.' }]
   },
   {
     icon: 'fa-server',
