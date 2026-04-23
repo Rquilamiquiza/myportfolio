@@ -4,7 +4,7 @@ const SOCIALS = [
   { icon: 'fab fa-github', href: 'https://github.com/Rquilamiquiza' },
   { icon: 'fab fa-linkedin-in', href: 'https://www.linkedin.com/in/rom%C3%A3o-quilamiquiza-4767092b1/' },
   { icon: 'fab fa-instagram', href: 'https://www.instagram.com/romao_quilamiquiza/' },
-  { icon: 'fas fa-envelope', href: 'mailto:quilamiquiza@gmail.com' }
+  { icon: 'fas fa-envelope', href: 'mailto:quilamiquizaromao@gmail.com' }
 ]
 
 export default function Contact() {
