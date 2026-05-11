@@ -126,6 +126,8 @@ export default function Contact() {
               <a
                 key={s.icon}
                 href={s.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-12 h-12 bg-dark-800 border border-green-500/10 rounded-md flex items-center justify-center text-gray-400 hover:text-green-400 hover:border-green-500/30 hover:-translate-y-1 transition-all duration-300"
               >
                 <i className={`${s.icon} text-xl`} />
