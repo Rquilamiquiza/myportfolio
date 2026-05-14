@@ -41,8 +41,11 @@ export default function Navbar() {
           href="#home"
           className="font-mono text-green-500 text-xl font-bold glitch-hover flex items-center gap-2"
         >
-          <span className="text-green-400">&lt;</span>RQ
-          <span className="text-green-400">/&gt;</span>
+          <img
+              src="../public/home.svg"
+              alt="Logo"
+              className="w-10 h-10 rounded-full object-cover"
+            />
         </a>
         <div className="hidden md:flex items-center gap-8">
           {LINKS.map((l) => (
