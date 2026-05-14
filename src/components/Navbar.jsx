@@ -42,7 +42,7 @@ export default function Navbar() {
           className="font-mono text-green-500 text-xl font-bold glitch-hover flex items-center gap-2"
         >
           <img
-              src="../public/home.svg"
+              src="../../public/home.svg"
               alt="Logo"
               className="w-10 h-10 rounded-full object-cover"
             />
